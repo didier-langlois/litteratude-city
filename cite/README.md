@@ -1,16 +1,14 @@
-# Cité de la Littératude — RC4 de démonstration
+# RC5 Signature
 
-Cette version montre comment le moteur permet de faire évoluer les contenus sans reconstruire l'architecture.
+Cette version démontre :
 
-## Nouveautés RC4
+- une ouverture animée de la Cité ;
+- un moteur générique qui ne connaît aucun auteur ;
+- les quartiers définis dans `content/catalog.js` ;
+- les emblèmes et le Passeport ;
+- une vignette propre pour Madame Bovary ;
+- aucune galerie inutile sous l’Atelier ;
+- la vidéo de la biographie intégrée ;
+- le lien YouTube de l’Atelier intégré.
 
-- vidéo complète **Biographie Flaubert 720** ;
-- clip complet **Flaubert le voyageur** ;
-- vidéo YouTube de l'**Atelier de Croisset** ;
-- vignette **Madame Bovary** avec la galerie des personnages ;
-- conservation des images d'écriture et du fichier audio FSA100 ;
-- vidéos optimisées pour GitHub, chacune sous la limite de 100 Mo.
-
-## Installation
-
-Copier tout le contenu de ce dossier dans `litteratude-city/cite/`, puis faire un commit et un push avec GitHub Desktop.
+Le clip `Flaubert le voyageur.mp4` dépasse 100 Mo et n’est pas inclus. Il devra être compressé avant publication sur GitHub.

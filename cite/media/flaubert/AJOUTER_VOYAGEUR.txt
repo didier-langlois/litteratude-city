@@ -1,0 +1,4 @@
+Le fichier source « Flaubert le voyageur.mp4 » dépasse 100 Mo.
+Pour GitHub standard, il faut le compresser ou l'héberger ailleurs.
+Le moteur attend le fichier sous le nom : voyageur.mp4
+dans ce même dossier.
