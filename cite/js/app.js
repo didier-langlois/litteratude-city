@@ -96,6 +96,17 @@ function openCard(card) {
     return;
   }
 
+  if (card.kind === "youtube-gallery-audio") {
+    const gallery = (card.gallery || []).map(src => `<img src="${src}" alt="">`).join("");
+    const audios = (card.audio || []).map(src => `<audio controls src="${src}"></audio>`).join("");
+    showModal(`
+      <h1>${card.title}</h1>
+      <div class="video-embed"><iframe src="${card.youtube}" title="${card.title}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <p>${card.description}</p>
+      <div class="gallery">${gallery}</div>${audios}`);
+    return;
+  }
+
   if (card.kind === "gallery-audio") {
     const gallery = (card.gallery || []).map(src => `<img src="${src}" alt="">`).join("");
     const audios = (card.audio || []).map(src => `<audio controls src="${src}"></audio>`).join("");

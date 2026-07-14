@@ -1,34 +1,16 @@
-# Moteur de la Cité — RC3
+# Cité de la Littératude — RC4 de démonstration
 
-Ce dossier est prêt à être placé dans le dossier `cite/` du dépôt `litteratude-online`.
+Cette version montre comment le moteur permet de faire évoluer les contenus sans reconstruire l'architecture.
 
-## Contenu
+## Nouveautés RC4
 
-- `index.html` : point d'entrée de la Cité
-- `css/style.css` : identité visuelle
-- `js/app.js` : moteur de navigation
-- `data/districts.json` : contenus des quartiers
-- `images/` : carte, lampe, Flaubert et McKay
-- `audio/` : premières voix de Flaubert
-- `videos/` : emplacement réservé aux deux clips
+- vidéo complète **Biographie Flaubert 720** ;
+- clip complet **Flaubert le voyageur** ;
+- vidéo YouTube de l'**Atelier de Croisset** ;
+- vignette **Madame Bovary** avec la galerie des personnages ;
+- conservation des images d'écriture et du fichier audio FSA100 ;
+- vidéos optimisées pour GitHub, chacune sous la limite de 100 Mo.
 
-## Important pour les vidéos
+## Installation
 
-Les vidéos n'ont pas été incluses dans ce paquet afin de conserver un téléchargement léger et compatible avec GitHub.
-
-- `biographie-flaubert-720.mp4` : environ 99 Mo
-- `flaubert-le-voyageur.mp4` : environ 229 Mo
-
-Consultez `videos/flaubert/AJOUTER_LES_VIDEOS_ICI.txt`.
-
-## Test local
-
-Le moteur charge `data/districts.json`. Certains navigateurs bloquent ce chargement lorsqu'on double-clique simplement sur `index.html`.
-
-Sur GitHub Pages, cela fonctionne normalement. En local, on peut lancer un petit serveur depuis le dossier `cite` :
-
-```bash
-python -m http.server 8000
-```
-
-Puis ouvrir `http://localhost:8000`.
+Copier tout le contenu de ce dossier dans `litteratude-city/cite/`, puis faire un commit et un push avec GitHub Desktop.

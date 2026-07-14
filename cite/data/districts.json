@@ -33,7 +33,7 @@
         "title": "L’Atelier de Croisset",
         "description": "Méthode, corrections, mot juste et gueuloir.",
         "image": "images/flaubert/atelier-grenouille.jpg",
-        "kind": "gallery-audio",
+        "kind": "youtube-gallery-audio",
         "gallery": [
           "images/flaubert/ecriture-1.jpg",
           "images/flaubert/ecriture-2.jpg",
@@ -41,7 +41,8 @@
         ],
         "audio": [
           "audio/flaubert/ecriture.wav"
-        ]
+        ],
+        "youtube": "https://www.youtube.com/embed/ZyrphYHcZtw?rel=0"
       },
       {
         "title": "Les constellations",
@@ -63,9 +64,9 @@
       },
       {
         "title": "Madame Bovary",
-        "description": "L’œuvre fondatrice et ses archives.",
-        "image": "images/flaubert/biographie-naissance.jpg",
-        "kind": "future"
+        "description": "Emma, Charles, Rodolphe, Léon et les autres personnages du roman.",
+        "image": "images/flaubert/madame-bovary-personnages.jpg",
+        "kind": "image"
       }
     ]
   },
