@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>La Cité de la Littératude</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="brand">LA CITÉ DE LA LITTÉRATUDE <small>— moteur RC3</small></div>
+      <div class="actions">
+        <button class="pill" id="emblemsButton">Les emblèmes</button>
+        <button class="pill" id="overviewButton">Vue générale</button>
+      </div>
+    </header>
+
+    <section class="map-stage">
+      <img class="city-map" src="images/city/cite-litteratude.jpg" alt="Carte de la Cité de la Littératude">
+      <div class="vignette"></div>
+      <div id="hotspots"></div>
+      <div class="prompt" id="prompt">Passez sur un quartier, puis cliquez pour ouvrir ses portes.</div>
+    </section>
+
+    <aside class="drawer" id="drawer">
+      <section class="drawer-head">
+        <button class="close-drawer" id="closeDrawer">×</button>
+        <div class="district-type" id="districtType">Quartier</div>
+        <h1 id="districtTitle">Titre</h1>
+        <p id="districtText"></p>
+        <img class="portrait" id="districtPortrait" alt="">
+      </section>
+
+      <section class="rail-wrap">
+        <button class="arrow left" id="leftArrow">‹</button>
+        <div class="rail" id="rail"></div>
+        <button class="arrow right" id="rightArrow">›</button>
+      </section>
+    </aside>
+
+    <button class="lamp" id="lamp" aria-label="La Lampe du Village"></button>
+  </main>
+
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Ajoutez ici, avec ces noms exacts :
+
+1. biographie-flaubert-720.mp4
+2. flaubert-le-voyageur.mp4
+
+Le premier fichier fait environ 99 Mo et peut être ajouté avec GitHub Desktop.
+Le second fait environ 229 Mo : GitHub standard refuse les fichiers supérieurs à 100 Mo.
+Il faudra soit :
+- le compresser sous 100 Mo ;
+- utiliser Git LFS ;
+- ou l’héberger ailleurs et remplacer son adresse dans data/districts.json.
