@@ -1,14 +1,13 @@
-# RC5 Signature
+# La Cité de la Littératude — RC5.1 Signature
 
-Cette version démontre :
+Cette version comprend :
 
-- une ouverture animée de la Cité ;
-- un moteur générique qui ne connaît aucun auteur ;
-- les quartiers définis dans `content/catalog.js` ;
-- les emblèmes et le Passeport ;
-- une vignette propre pour Madame Bovary ;
-- aucune galerie inutile sous l’Atelier ;
-- la vidéo de la biographie intégrée ;
-- le lien YouTube de l’Atelier intégré.
+- les nouvelles vignettes propres de **La biographie** et **Le voyageur** ;
+- la vidéo de la biographie compressée ;
+- la vidéo complète du Voyageur compressée ;
+- la vidéo d’introduction/résumé de *Madame Bovary* compressée ;
+- la vidéo YouTube de l’Atelier de Croisset ;
+- les emblèmes, le Passeport et la Lampe du Village ;
+- le moteur générique piloté par `content/catalog.js`.
 
-Le clip `Flaubert le voyageur.mp4` dépasse 100 Mo et n’est pas inclus. Il devra être compressé avant publication sur GitHub.
+Tous les fichiers vidéo inclus sont inférieurs à 100 Mo et peuvent être envoyés sur GitHub standard.

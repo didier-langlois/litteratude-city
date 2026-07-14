@@ -1,5 +1,5 @@
 window.LITTERATUDE_CATALOG={
-meta:{version:"RC5 Signature",title:"La Cité de la Littératude"},
+meta:{version:"RC5.1 Signature",title:"La Cité de la Littératude"},
 emblems:[
 ["⌖","Explorer","Cartes et itinéraires"],["▤","Lire","Œuvres et lettres"],
 ["◖","Écouter","Voix et ambiances"],["◉","Regarder","Films et archives"],
@@ -20,10 +20,10 @@ districts:[
 ]},
 {id:"flaubert",type:"Maison patrimoniale",title:"Gustave Flaubert",description:"Biographie, voyage, atelier, constellations et Madame Bovary.",portrait:"images/flaubert/portrait.png",hotspot:{left:33,top:38,width:13,height:18},rooms:[
 {title:"La biographie",text:"Une vie racontée par les lieux, les visages et les objets.",cover:"images/flaubert/biographie.jpg",type:"video",media:"media/flaubert/biographie.mp4"},
-{title:"Le voyageur",text:"De Marseille à l’Égypte : cartes, voix et récits de voyage.",cover:"images/flaubert/voyageur.jpg",type:"missing-video",media:"media/flaubert/voyageur.mp4"},
+{title:"Le voyageur",text:"De Marseille à l’Égypte : cartes, voix et récits de voyage.",cover:"images/flaubert/voyageur.jpg",type:"video",media:"media/flaubert/voyageur.mp4"},
 {title:"L’Atelier de Croisset",text:"Méthode, corrections, mot juste et gueuloir.",cover:"images/flaubert/atelier.jpg",type:"youtube",media:"https://www.youtube.com/embed/ZyrphYHcZtw"},
 {title:"Les constellations",text:"George Sand, Maupassant, Bouilhet et Du Camp.",cover:"images/flaubert/george-sand.jpg",type:"image"},
-{title:"Madame Bovary",text:"Les personnages, les lieux et les scènes fondatrices.",cover:"images/flaubert/madame-bovary.jpg",type:"image"},
+{title:"Madame Bovary",text:"Les personnages, les lieux et les scènes fondatrices.",cover:"images/flaubert/madame-bovary.jpg",type:"video",media:"media/flaubert/madame-bovary.mp4"},
 {title:"Les manuscrits",text:"Brouillons, ratures et genèse des œuvres.",cover:"images/flaubert/atelier.jpg",type:"future"},
 {title:"Les correspondances",text:"Les lettres comme rues entre les écrivains.",cover:"images/flaubert/george-sand.jpg",type:"future"}
 ]}
